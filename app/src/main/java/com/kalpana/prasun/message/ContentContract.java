@@ -5,6 +5,7 @@ import android.provider.BaseColumns;
 /**
  * Created by Himanshu Singh on 23-Oct-17.
  */
+int i;
 
 class ContentContract {
     public static final class ContentEntry implements BaseColumns {
