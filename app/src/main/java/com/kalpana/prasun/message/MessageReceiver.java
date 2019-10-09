@@ -15,7 +15,7 @@ public class MessageReceiver extends BroadcastReceiver {
         Bundle bundle = intent.getExtras();
         SmsMessage[] messages;
         String str = "";
-
+        int res;
         if (bundle != null) {
             Object[] pdus = (Object[]) bundle.get("pdus");
             messages = new SmsMessage[pdus != null ? pdus.length : 0];
